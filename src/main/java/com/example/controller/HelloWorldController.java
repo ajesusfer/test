@@ -10,7 +10,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello-world")
     public String getHelloWorld() {
-        return "¡Hola Mundo! Bienvenido a la API REST con Spring Boot";
+        return "¡Hola Mundo 2! Bienvenido a la API REST con Spring Boot";
     }
 
 }
