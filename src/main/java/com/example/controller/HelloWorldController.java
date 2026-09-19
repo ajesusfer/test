@@ -10,7 +10,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello-world")
     public String getHelloWorld() {
-        return "Hello World, welcome to my first Rest API Spring Boot application generated via OpenCode";
+        return "Hello EVERYONE ! Welcome to my first Rest API Spring Boot application generated via OpenCode";
     }
 
 }
