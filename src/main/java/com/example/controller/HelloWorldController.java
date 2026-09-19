@@ -10,7 +10,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello-world")
     public String getHelloWorld() {
-        return "Hello World";
+        return "Hello World, welcome to my first API Rest Sprong Boot application generated via OpenCode";
     }
 
 }

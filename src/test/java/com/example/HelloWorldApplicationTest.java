@@ -27,7 +27,7 @@ public class HelloWorldApplicationTest {
     public void testHelloWorldEndpointIntegration() throws Exception {
         mockMvc.perform(get("/api/hello-world"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello World"));
+                .andExpect(content().string("Hello World, welcome to my first API Rest Sprong Boot application generated via OpenCode"));
     }
 
     @Test
